@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zonke-Polish, powered by Washa Zonke, offers premium polishing and cleaning services in Duduza, South Africa, including FIP401 ISP Silicone Polish for R100.00 per unit.">
+    <meta name="keywords" content="Zonke-Polish, Washa Zonke, FIP401 ISP, Duduza cleaning services, car wash Duduza, silicone polish R100, Fubu Street cleaning, professional cleaning Gauteng">
+    <title>Thokozane Koba - Zonke-Polish</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+        }
+
+        .social-links img {
+            height: 40px;
+            transition: transform 0.3s;
+        }
+
+        .social-links img:hover {
+            transform: scale(1.1);
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+
+        section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            margin: 15px 0 10px;
+            color: #34495e;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        ul li:before {
+            content: "•";
+            color: #3498db;
+            position: absolute;
+            left: -20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .learning-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .learning-grid {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+        }
+
+        blockquote {
+            font-style: italic;
+            color: #555;
+            border-left: 4px solid #3498db;
+            padding-left: 20px;
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>👋 Hi, I'm Thokozane Koba!</h1>
+        <p>Founder of <a href="https://github.com/wash-zonke" target="_blank">@wash-zonke</a> | Cleaning Service Owner | Aspiring Developer | Music Producer</p>
+        <div class="social-links">
+            <a href="https://washa-zonke.github.io" target="_blank"><img src="https://img.shields.io/badge/Washa%20Zonke-Visit%20Our%20Site-brightgreen?style=for-the-badge&logo=google-chrome" alt="Washa Zonke"></a>
+            <a href="https://github.com/wash-zonke" target="_blank"><img src="https://img.shields.io/badge/GitHub-Business%20Profile-blue?style=for-the-badge&logo=github" alt="GitHub Business"></a>
+            <a href="mailto:thokozanekoba@outlook.com"><img src="https://img.shields.io/badge/Contact-Email-red?style=for-the-badge&logo=gmail" alt="Contact Email"></a>
+            <a href="https://www.google.com/maps/place/Fubu+Street,+Duduza,+South+Africa/" target="_blank"><img src="https://img.shields.io/badge/Location-Duduza,%20South%20Africa-lightgrey?style=for-the-badge&logo=google-maps" alt="Location"></a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>🚀 About Me</h2>
+            <ul>
+                <li>🧹 I run a cleaning service in Duduza, South Africa and am on a mission to transform it with the power of technology.</li>
+                <li>🖥️ Learning programming using Ubuntu and Termux.</li>
+                <li>🎵 I love personal growth, entrepreneurship, and music production (especially with Ardour).</li>
+            </ul>
+        </section>
+
+        <section id="learning">
+            <h2>💡 What I'm Learning</h2>
+            <div class="learning-grid">
+                <div>
+                    <h3>Programming</h3>
+                    <p>HTML, CSS, JavaScript, Python, Lua (for Ardour)</p>
+                </div>
+                <div>
+                    <h3>Tech & Tools</h3>
+                    <p>Local AI, web/mobile apps, ERP & content management, terminals (Ghostty, Konsole, Termux)</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="business">
+            <h2>🛠️ My Business: Zonke-Polish</h2>
+            <p><strong>Washa Zonke</strong> - Premium Polishing & Cleaning Services in Duduza, South Africa</p>
+            <h3>Flagship Product</h3>
+            <p>🧴 <strong>FIP401 ISP Silicone Polish</strong> – R100.00 per unit<br>25L ready-to-use, perfect for wood, plastic, vinyl, leather, chrome, brass, stainless steel, and ceramic tiles.</p>
+            <h3>Our Services</h3>
+            <ul>
+                <li>🚗 Car wash services</li>
+                <li>👟 Shoe cleaning</li>
+                <li>🏠 Custom cleaning solutions for homes & businesses</li>
+            </ul>
+            <h3>Why Choose Us?</h3>
+            <ul>
+                <li>Local roots & professional standards</li>
+                <li>Quality guaranteed, easy ordering online</li>
+                <li>Serving Duduza and Gauteng area</li>
+            </ul>
+            <p><a href="https://washa-zonke.github.io" target="_blank">🌐 Order & Learn More</a> | <a href="mailto:info@washa-zonke.co.za">📧 Contact Us</a></p>
+        </section>
+
+        <section id="mission">
+            <h2>🌟 My Mission</h2>
+            <blockquote>I want to master IT tools and programming to grow my business, connect with other learners and entrepreneurs, and inspire personal growth in my community.</blockquote>
+        </section>
+
+        <section id="fun-facts">
+            <h2>🌱 Fun Facts</h2>
+            <ul>
+                <li>🎶 Music producer at heart—exploring new sounds with Ardour</li>
+                <li>💡 Always looking for new ways to combine tech, creativity, and business</li>
+            </ul>
+        </section>
+
+        <section id="connect">
+            <h2>🔗 Let's Connect!</h2>
+            <ul>
+                <li><strong>Personal GitHub:</strong> <a href="https://github.com/thokozane-koba" target="_blank">thokozane-koba</a></li>
+                <li><strong>Business Profile:</strong> <a href="https://github.com/wash-zonke" target="_blank">@wash-zonke</a></li>
+                <li><strong>Website:</strong> <a href="https://washa-zonke.github.io" target="_blank">washa-zonke.github.io</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p><strong>“Keep learning, keep creating, and never stop growing.”</strong></p>
+    </footer>
+
+    <script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Fade-in animation for sections
+        const sections = document.querySelectorAll('section');
+        const observerOptions = {
+            root: null,
+            threshold: 0.1,
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
